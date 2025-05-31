@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{b00de282-dbcd-4450-b62f-50cfab979b3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\resources">
+      <UniqueIdentifier>{78996c8b-8398-483d-8e15-429dcd9d0b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\states">
+      <UniqueIdentifier>{1c1c8e4c-1b28-43cf-9d91-c07529ce3d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{cb8d7798-7a64-451f-95f5-ca062596b39a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{5b29821c-177f-4104-9dda-9472e6b05a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\states\title">
+      <UniqueIdentifier>{6f0d196f-056f-4887-8baa-c7b3679b5c55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\input">
+      <UniqueIdentifier>{0f6df725-d53b-4fee-8b23-238876e05f67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\GameContext.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\resources\ResourceManager.cpp">
+      <Filter>Source Files\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\TeamLogoGameState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\TestState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\DisclaimerGameState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\tinyxml2.cpp">
+      <Filter>Source Files\external</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\LogosGameState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\graphics\BitmapFont.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\Mod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\ModManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\Title\Background.cpp">
+      <Filter>Source Files\states\title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\Title\TitleResources.cpp">
+      <Filter>Source Files\states\title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\TitleGameState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\input\InputManager.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\GameplayState.cpp">
+      <Filter>Source Files\states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\states\Title\UserInterface.cpp">
+      <Filter>Source Files\states\title</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sonic2ReHD.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

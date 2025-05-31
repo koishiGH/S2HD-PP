@@ -1,0 +1,8 @@
+{
+    "name": "Logo Replace",
+    "version": "1.0.0",
+    "author": "maybekoi",
+    "description": "A mod template for Sonic 2 RE:HD that replaces the TEAMLOGO.png with a modified one.",
+    "priority": 1,
+    "enabled": true
+}
