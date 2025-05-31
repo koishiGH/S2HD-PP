@@ -1,7 +1,7 @@
 #pragma once
 
 #include <SDL2/SDL.h>
-#include "../resources/ResourceManager.hpp"
+#include <resources/ResourceManager.hpp>
 
 class TestState {
 public:

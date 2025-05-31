@@ -5,7 +5,7 @@
 #include <memory>
 #include <string>
 #include <vector>
-#include "../graphics/BitmapFont.hpp"
+#include <graphics/BitmapFont.hpp>
 
 class GameContext;
 

@@ -1,6 +1,6 @@
 #include "TeamLogoGameState.hpp"
-#include "../core/GameContext.hpp"
-#include "../resources/ResourceManager.hpp"
+#include <core/GameContext.hpp>
+#include <resources/ResourceManager.hpp>
 #include <iostream>
 
 TeamLogoGameState::TeamLogoGameState(GameContext* gameContext)

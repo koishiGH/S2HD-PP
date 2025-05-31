@@ -1,9 +1,9 @@
 #pragma once
 
 #include "GameState.hpp"
-#include "../core/GameContext.hpp"
-#include "../resources/ResourceManager.hpp"
-#include "../graphics/BitmapFont.hpp"
+#include <core/GameContext.hpp>
+#include <resources/ResourceManager.hpp>
+#include <graphics/BitmapFont.hpp>
 #include "title/Background.hpp"
 #include "title/UserInterface.hpp"
 #include "GameplayState.hpp"

@@ -1,0 +1,3 @@
+[submodule "external/YU2Engine"]
+	path = external/YU2Engine
+	url = https://github.com/koishiGH/YU2Engine.git

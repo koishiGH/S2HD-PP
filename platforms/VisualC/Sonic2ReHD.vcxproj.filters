@@ -13,37 +13,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\core">
-      <UniqueIdentifier>{b00de282-dbcd-4450-b62f-50cfab979b3a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\resources">
-      <UniqueIdentifier>{78996c8b-8398-483d-8e15-429dcd9d0b5f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\states">
       <UniqueIdentifier>{1c1c8e4c-1b28-43cf-9d91-c07529ce3d8a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\external">
-      <UniqueIdentifier>{cb8d7798-7a64-451f-95f5-ca062596b39a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\graphics">
-      <UniqueIdentifier>{5b29821c-177f-4104-9dda-9472e6b05a11}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\states\title">
       <UniqueIdentifier>{6f0d196f-056f-4887-8baa-c7b3679b5c55}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\input">
-      <UniqueIdentifier>{0f6df725-d53b-4fee-8b23-238876e05f67}</UniqueIdentifier>
+    <Filter Include="Source Files\YU2">
+      <UniqueIdentifier>{6a151d08-e615-4b7e-a90c-fd6ce59ba707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\YU2\core">
+      <UniqueIdentifier>{012f61d4-b422-46c6-a00c-171b401ceaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\YU2\graphics">
+      <UniqueIdentifier>{88f9388d-e9df-447b-8056-81bf116fcafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\YU2\input">
+      <UniqueIdentifier>{9505411e-9d55-4811-b48b-8708c15b5352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\YU2\resources">
+      <UniqueIdentifier>{129133b1-4f51-4cfc-afdb-5f27d1ab201e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\main.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\core\GameContext.cpp">
-      <Filter>Source Files\core</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\resources\ResourceManager.cpp">
-      <Filter>Source Files\resources</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\states\TeamLogoGameState.cpp">
       <Filter>Source Files\states</Filter>
@@ -54,20 +48,8 @@
     <ClCompile Include="..\..\src\states\DisclaimerGameState.cpp">
       <Filter>Source Files\states</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\external\tinyxml2.cpp">
-      <Filter>Source Files\external</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\states\LogosGameState.cpp">
       <Filter>Source Files\states</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\graphics\BitmapFont.cpp">
-      <Filter>Source Files\graphics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\core\Mod.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\core\ModManager.cpp">
-      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\states\Title\Background.cpp">
       <Filter>Source Files\states\title</Filter>
@@ -78,14 +60,32 @@
     <ClCompile Include="..\..\src\states\TitleGameState.cpp">
       <Filter>Source Files\states</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\input\InputManager.cpp">
-      <Filter>Source Files\input</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\states\GameplayState.cpp">
       <Filter>Source Files\states</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\states\Title\UserInterface.cpp">
       <Filter>Source Files\states\title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\YU2Engine\core\GameContext.cpp">
+      <Filter>Source Files\YU2\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\YU2Engine\core\Mod.cpp">
+      <Filter>Source Files\YU2\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\YU2Engine\core\ModManager.cpp">
+      <Filter>Source Files\YU2\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\YU2Engine\graphics\BitmapFont.cpp">
+      <Filter>Source Files\YU2\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\YU2Engine\input\InputManager.cpp">
+      <Filter>Source Files\YU2\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\YU2Engine\resources\ResourceManager.cpp">
+      <Filter>Source Files\YU2\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\external\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

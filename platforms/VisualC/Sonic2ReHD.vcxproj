@@ -129,7 +129,7 @@ XCOPY "$(SolutionDir)..\..\mods" "$(TargetDir)\mods\" /E /Y</Command>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\..\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\src;$(ProjectDir)..\..\external;$(ProjectDir)..\..\external\YU2Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -155,7 +155,7 @@ XCOPY "$(SolutionDir)..\..\mods" "$(TargetDir)\mods\" /E /Y</Command>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\..\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\src;$(ProjectDir)..\..\external;$(ProjectDir)..\..\external\YU2Engine;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -176,13 +176,13 @@ XCOPY "$(SolutionDir)..\..\mods" "$(TargetDir)\mods\" /E /Y</Command>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\external\tinyxml2.cpp" />
-    <ClCompile Include="..\..\src\core\GameContext.cpp" />
-    <ClCompile Include="..\..\src\core\Mod.cpp" />
-    <ClCompile Include="..\..\src\core\ModManager.cpp" />
-    <ClCompile Include="..\..\src\graphics\BitmapFont.cpp" />
-    <ClCompile Include="..\..\src\input\InputManager.cpp" />
+    <ClCompile Include="..\..\external\YU2Engine\core\GameContext.cpp" />
+    <ClCompile Include="..\..\external\YU2Engine\core\Mod.cpp" />
+    <ClCompile Include="..\..\external\YU2Engine\core\ModManager.cpp" />
+    <ClCompile Include="..\..\external\YU2Engine\graphics\BitmapFont.cpp" />
+    <ClCompile Include="..\..\external\YU2Engine\input\InputManager.cpp" />
+    <ClCompile Include="..\..\external\YU2Engine\resources\ResourceManager.cpp" />
     <ClCompile Include="..\..\src\main.cpp" />
-    <ClCompile Include="..\..\src\resources\ResourceManager.cpp" />
     <ClCompile Include="..\..\src\states\DisclaimerGameState.cpp" />
     <ClCompile Include="..\..\src\states\GameplayState.cpp" />
     <ClCompile Include="..\..\src\states\LogosGameState.cpp" />

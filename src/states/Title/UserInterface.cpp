@@ -1,7 +1,7 @@
 #include "UserInterface.hpp"
 #include "../TitleGameState.hpp"
-#include "../../resources/ResourceManager.hpp"
-#include "../../input/InputManager.hpp"
+#include <input/InputManager.hpp>
+#include <resources/ResourceManager.hpp>
 #include <iostream>
 #include <cmath>
 

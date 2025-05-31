@@ -1,7 +1,7 @@
 #pragma once
 
-#include "../../core/GameContext.hpp"
-#include "../../resources/ResourceManager.hpp"
+#include <core/GameContext.hpp>
+#include <resources/ResourceManager.hpp>
 #include <SDL2/SDL.h>
 #include <memory>
 

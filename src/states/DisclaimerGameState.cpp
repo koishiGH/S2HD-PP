@@ -1,6 +1,6 @@
 #include "DisclaimerGameState.hpp"
-#include "../core/GameContext.hpp"
-#include "../resources/ResourceManager.hpp"
+#include <core/GameContext.hpp>
+#include <resources/ResourceManager.hpp>
 #include <iostream>
 
 DisclaimerGameState::DisclaimerGameState(GameContext* gameContext)

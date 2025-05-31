@@ -1,6 +1,6 @@
 #include "LogosGameState.hpp"
-#include "../core/GameContext.hpp"
-#include "../resources/ResourceManager.hpp"
+#include <core/GameContext.hpp>
+#include <resources/ResourceManager.hpp>
 #include <iostream>
 
 LogosGameState::LogosGameState(GameContext* gameContext)

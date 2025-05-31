@@ -1,6 +1,6 @@
 #pragma once
-#include "../core/GameContext.hpp"
-#include "../graphics/BitmapFont.hpp"
+#include <core/GameContext.hpp>
+#include <graphics/BitmapFont.hpp>
 #include <memory>
 #include <string>
 #include <SDL2/SDL.h>

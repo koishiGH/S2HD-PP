@@ -1,5 +1,5 @@
 #include "GameplayState.hpp"
-#include "../core/GameContext.hpp"
+#include <core/GameContext.hpp>
 #include <SDL2/SDL_image.h>
 #include <sstream>
 #include <iomanip>
