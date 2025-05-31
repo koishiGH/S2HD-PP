@@ -177,7 +177,7 @@ void UserInterface::HandleInput() {
     }
 
     if (pressStartActive_) {
-        if (IM::justPressed(IM::GetScancode(IM::KEY_Z))) {
+        if (IM::justPressed(IM::GetScancode(IM::KEY_ENTER))) {
             busy_ = true;
             pressStartScale_ = 1.2f;  
             pressStartWhiteAdditive_ = 1.0f;  
