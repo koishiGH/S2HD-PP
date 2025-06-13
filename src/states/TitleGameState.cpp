@@ -1,6 +1,6 @@
 #include "TitleGameState.hpp"
-#include "title/Background.hpp"
-#include "title/TitleResources.hpp"
+#include "Title/Background.hpp"
+#include "Title/TitleResources.hpp"
 #include <graphics/BitmapFont.hpp>
 #include <input/InputManager.hpp>
 #include <core/GameContext.hpp>

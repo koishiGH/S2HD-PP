@@ -4,8 +4,8 @@
 #include <core/GameContext.hpp>
 #include <resources/ResourceManager.hpp>
 #include <graphics/BitmapFont.hpp>
-#include "title/Background.hpp"
-#include "title/UserInterface.hpp"
+#include "Title/Background.hpp"
+#include "Title/UserInterface.hpp"
 #include "GameplayState.hpp"
 #include <SDL2/SDL.h>
 #include <string>

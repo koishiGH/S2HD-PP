@@ -3,6 +3,7 @@
 #include <SDL2/SDL_image.h>
 #include <sstream>
 #include <iomanip>
+#include <cmath>
 
 GameplayState::GameplayState(GameContext* context) 
     : context_(context)
